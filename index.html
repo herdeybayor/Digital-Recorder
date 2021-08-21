@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Digital Recorder</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body onmousedown="return false" onselectstart="return false">
+	<h1>Digital Recorder</h1>
+	<div class="key-pressed"></div>
+
+	<div class="keys">
+		<div class="key" data-key="65" data-note="DO">DO <span>C</span></div>
+		<div class="key" data-key="83" data-note="RE">RE <span>D</span></div>
+		<div class="key" data-key="68" data-note="MI">MI <span>E</span></div>
+		<div class="key" data-key="70" data-note="FA">FA <span>F</span></div>
+		<div class="key" data-key="74" data-note="SO">SO <span>G</span></div>
+		<div class="key" data-key="75" data-note="LA">LA <span>A</span></div>
+		<div class="key" data-key="76" data-note="TI">TI <span>B</span></div>
+		<div class="key" data-key="186" data-note="DO#">DO <span>C#</span></div>
+
+
+		<audio data-key="65" src="audio/65.wav"></audio>
+		<audio data-key="83" src="audio/83.wav"></audio>
+		<audio data-key="68" src="audio/68.wav"></audio>
+		<audio data-key="70" src="audio/70.wav"></audio>
+		<audio data-key="74" src="audio/74.wav"></audio>
+		<audio data-key="75" src="audio/75.wav"></audio>
+		<audio data-key="76" src="audio/76.wav"></audio>
+		<audio data-key="186" src="audio/186.wav"></audio>
+	</div>
+
+
+
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>

@@ -16,7 +16,7 @@ var newNote = new Note("audio/65.wav", "audio/83.wav", "audio/68.wav", "audio/70
 
 window.addEventListener("keydown", playNote);
 $(".key").click(function () {
-  $(this).fadeOut(125).fadeIn(125);
+  $(this).fadeOut(50).fadeIn(50);
   switch ($(this).text()) {
     case "DO C":
       var audio = new Audio("audio/65.wav");
